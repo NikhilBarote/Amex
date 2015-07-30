@@ -63,7 +63,6 @@ void connectRedis(){
 	c = redisConnect("127.0.0.1", 6379);
 	if (c->err){
 			REDIS_STATUS=0;
-        	//printf("Error: %s\n", c->errstr);
     }else{
     		REDIS_STATUS=1;
         	//printf("Connection Made! \n");
