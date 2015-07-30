@@ -16,6 +16,6 @@ proxyLayer.c takes the retrival and update commands from user to alter redis and
 ```
 ##Ruuning proxyLayer.c
 
-Compiling: 
+###Compiling: 
 - gcc proxyLayer.c libhiredis.a `mysql_config --cflags --libs`
 - hiredis.h, libhiredis.a, read.h, sds.h should be in to your current directory of proxyLayer.c
