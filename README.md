@@ -18,4 +18,4 @@ Ruuning proxyLayer.c
 
 Compiling: 
 - gcc proxyLayer.c libhiredis.a `mysql_config --cflags --libs`
-- include hiredis.h, libhiredis.a, read.h, sds.h in to your current directory
+- hiredis.h, libhiredis.a, read.h, sds.h should be in to your current directory of proxyLayer.c
