@@ -62,10 +62,10 @@ int main(){
 void connectRedis(){
 	c = redisConnect("127.0.0.1", 6379);
 	if (c->err){
-			REDIS_STATUS=0;
+		REDIS_STATUS=0;
     }else{
-    		REDIS_STATUS=1;
-        	//printf("Connection Made! \n");
+    	REDIS_STATUS=1;
+        //printf("Connection Made! \n");
     }
 }
 
@@ -85,7 +85,7 @@ void *isRedisUp(){
 		}
 		sleep(5);
     }
-	return NULL;
+    return NULL;
 }
 
 void connectMySQL(){
