@@ -17,5 +17,5 @@ Flow of proxyLayer.c:
 Ruuning proxyLayer.c
 
 Compiling: 
-	gcc proxyLayer.c libhiredis.a `mysql_config --cflags --libs`
-	include hiredis.h, libhiredis.a, read.h, sds.h in to your current directory
+- gcc proxyLayer.c libhiredis.a `mysql_config --cflags --libs`
+- include hiredis.h, libhiredis.a, read.h, sds.h in to your current directory
